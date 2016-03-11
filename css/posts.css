@@ -1,0 +1,134 @@
+/*Gordon Connell
+Opt code test
+3/10/16*/
+
+body {
+	background: #D3D3D3;
+}
+
+a {
+	text-decoration: none;
+}
+
+.posts_page {
+	position: relative;
+	max-width: 1024px;
+	margin: 0 auto 50px;
+}
+
+.posts_page h1 {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 60px;
+}
+
+.posts_page #showing {
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #ff0000;
+	text-align: right;
+}
+
+.idv_post {
+	position: relative;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	min-height: 15px;
+	background: #fff;
+	border: 1px solid;
+}
+
+.idv_post .view {
+	display: none;
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+	color: #0000ff;
+	border-radius: 20px;
+	border: 1px solid #0000ff;
+}
+
+.idv_post .view:hover {
+	background: #0000ff;
+	color: #fff;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.idv_post .post {
+	position: relative;
+	margin: 0 70px 0 0;
+}
+
+.idv_post .close-button {
+	position: absolute;
+	right: 5px;
+	top: 3px;
+}
+
+.idv_post .close-button {
+	cursor: pointer;
+}
+
+.idv_post .post span {
+	display: block;
+	width: 50px;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #0000ff;
+}
+
+.idv_post .post span:hover {
+	cursor: pointer;
+}
+
+.idv_post .details {
+	display: none;
+}
+
+#results2,
+#results3,
+#results4,
+#results5 {
+	display: none;
+}
+
+.pagination {
+	position: relative;
+}
+
+.pagination a {
+	margin-right: 10px;
+	font-size: 25px;
+	color: #ff0000;
+}
+
+.pagination a:hover {
+	text-decoration: underline;
+}
+
+.pagination .active {
+	color: #0000ff;
+}
+
+.pagination .top_jump {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.top_jump span {
+	display: inline-block;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.top_jump a {
+	margin-right: 0;
+}
+
+.top_jump img {
+	width: 30px;
+	vertical-align: middle;
+	border-radius: 20px;
+}
